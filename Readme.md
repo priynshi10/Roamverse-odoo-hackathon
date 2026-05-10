@@ -26,7 +26,7 @@
 
 <br/>
 
-[🚀 Live Demo](#) · [📖 Documentation](#) · [🐛 Report Bug](https://github.com/your-username/traveloop/issues) · [✨ Request Feature](https://github.com/your-username/traveloop/issues)
+🚀 Live Demo (#)  
 
 </div>
 
@@ -58,13 +58,13 @@
 
 ## 🌍 Overview
 
-**Traveloop** is a modern, full-featured travel itinerary management platform that eliminates the complexity of planning multi-city trips. Built with a React + TypeScript frontend, it delivers a seamless, responsive, and visually elegant experience across all devices.
+**Roamverse** is a modern, full-featured travel itinerary management platform that eliminates the complexity of planning multi-city trips. Built with a React + TypeScript frontend, it delivers a seamless, responsive, and visually elegant experience across all devices.
 
-At its core, Traveloop is a **client-side SPA** with persistent local storage, dynamic routing, and a modular component architecture — designed to be extensible, scalable, and ready for a backend integration layer.
+At its core, Roamverse is a **client-side SPA** with persistent local storage, dynamic routing, and a modular component architecture — designed to be extensible, scalable, and ready for a backend integration layer.
 
 ```
                         ┌───────────────────────────────────────┐
-                        │            TRAVELOOP PLATFORM         │
+                        │            Roamverse PLATFORM         │
                         │                                       │
    ┌──────────┐         │  ┌──────────┐      ┌──────────────┐   │
    │  Browser │ ──────► │  │   Vite   │ ───► │  React + TS  │   │
@@ -82,9 +82,9 @@ At its core, Traveloop is a **client-side SPA** with persistent local storage, d
                         └───────────────────────────────────────┘
 ```
 
-### Why Traveloop?
+### Why Roamverse?
 
-| Problem | Traveloop Solution |
+| Problem | Roamverse Solution |
 |---|---|
 | Trip planning is scattered across apps | Unified itinerary + budget + packing in one place |
 | No context-aware activity suggestions | Destination-based activity discovery with category filters |
@@ -143,7 +143,7 @@ A personalized command center for all travel activity.
 
 ### 🧳 Multi-City Trip Planner
 
-The heart of Traveloop — create, organize, and visualize complex multi-stop journeys.
+The heart of Roamverse — create, organize, and visualize complex multi-stop journeys.
 
 ```
 Trip: Europe Summer 2025
@@ -500,7 +500,7 @@ interface Note {
 ## 📂 Project Structure
 
 ```
-traveloop/
+Roamverse/
 │
 ├── public/
 │   ├── favicon.ico
@@ -645,7 +645,7 @@ git --version     # any recent version
 **1. Clone the repository**
 ```bash
 git clone https://github.com/priynshi10/Roamverse-odoo-hackathon.git
-cd traveloop
+cd roamverse
 ```
 
 **2. Install dependencies**
@@ -686,7 +686,7 @@ npm run format       # Format with Prettier
 # .env.example
 
 # App
-VITE_APP_NAME=Traveloop
+VITE_APP_NAME=Roamverse
 VITE_APP_VERSION=1.0.0
 VITE_APP_URL=http://localhost:5173
 
@@ -699,7 +699,7 @@ VITE_ENABLE_ANALYTICS=false
 VITE_STORAGE_PREFIX=traveloop_
 
 # Future: API Integration
-# VITE_API_BASE_URL=https://api.traveloop.app
+# VITE_API_BASE_URL=https://api.roamverse.app
 # VITE_GOOGLE_MAPS_API_KEY=your_key_here
 # VITE_WEATHER_API_KEY=your_key_here
 ```
@@ -769,7 +769,7 @@ const persistMiddleware = (config) =>
 
 ## 🔄 State Management
 
-Traveloop uses **Zustand** for global state with a slice-based pattern and localStorage middleware for persistence.
+Roamverse uses **Zustand** for global state with a slice-based pattern and localStorage middleware for persistence.
 
 ```
 ┌────────────────────────────────────────────────────┐
@@ -820,7 +820,7 @@ TanStack Router provides **fully type-safe routing** with file-based route gener
 
 ## 🎨 Component Design System
 
-Traveloop uses ShadCN UI as a base, extended with custom tokens for a travel-inspired aesthetic.
+Roamverse uses ShadCN UI as a base, extended with custom tokens for a travel-inspired aesthetic.
 
 ### Color Palette
 
@@ -954,8 +954,8 @@ CMD ["nginx", "-g", "daemon off;"]
 ```
 
 ```bash
-docker build -t traveloop .
-docker run -p 3000:80 traveloop
+docker build -t Roamverse .
+docker run -p 3000:80 Roamverse
 ```
 
 ---
@@ -1050,7 +1050,7 @@ This project is developed for **educational and hackathon purposes** under the M
 ```
 MIT License
 
-Copyright (c) 2025 Traveloop
+Copyright (c) 2025 Roamverse
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -1071,7 +1071,7 @@ Built with passion for travelers and innovators at the **Odoo Hackathon 2025**.
 
 **"Travel planning should feel as exciting as the journey itself."**
 
-⭐ Star this repo if Traveloop helped you explore the world better!
+⭐ Star this repo if Roamverse helped you explore the world better!
 
 [🔝 Back to Top](#)
 
